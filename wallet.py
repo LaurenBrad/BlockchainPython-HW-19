@@ -34,9 +34,6 @@ def derive_wallets(coin=BTC, mnemoic=mnemonic, depth=3):
     p_status = p.wait()
     return json.loads(output)
 
-# Create a dictionary object called coins to store the output from `derive_wallets`.
-coins = # YOUR CODE HERE
-
 # Create a function called `priv_key_to_account` that converts privkey strings to account objects.
 def priv_key_to_account(coin, priv_key):
     if coin == ETH:
